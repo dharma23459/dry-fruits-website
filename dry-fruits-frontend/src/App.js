@@ -1,18 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";  // Import Navbar component
-import Hero from "./components/Hero";  // Import Hero component
-import ProductList from "./components/ProductList";  // Import Product List
-import Footer from "./components/Footer";  // Import Footer component
+import AppRoutes from "./Routes";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Hero />
-      <ProductList />
-      <Footer />
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
